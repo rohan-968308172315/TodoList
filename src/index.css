@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  margin-top: 70px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  color: rgb(204, 227, 247);
+  cursor: pointer;
+  background-color: rgb(19, 236, 62);
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  /* padding: 10px; */
+  width: 30%;
+  color: aliceblue;
+  margin-left: 33%;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(6, 12, 12);
+  margin: 2px 0;
+}
+
+li span {
+  cursor: pointer;
+  width: 70%;
+}
+
+li button {
+  margin-left: 30%;
+  color: white;
+  border: none;
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+li button:hover{
+  color: blueviolet;
+  background-color: aliceblue;
+}
+
+
+@media(max-width:800px){
+  
+ul {
+  list-style-type: none;
+  /* padding: 10px; */
+  width: auto;
+  margin-left: -9%;
+}
+li button {
+  margin-left: 40%;
+  color: white;
+  border: none;
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: 0.7s;
+}
+}
